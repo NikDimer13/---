@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Pangolin";
+  src: url("Pangolin-Regular.ttf");
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    background-image: url("./images/heart.jfif");
+    background-size: 5%;
+
+    font-family: "Pangolin";
+
+    padding: 30px;
+
+    height: 94vh;
+}
+
+main {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+
+    background-color: lightblue;
+
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 3px solid blue;
+}
+
+h1 {
+    background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red); /* Градиент радуги */
+    -webkit-background-clip: text; /* Вырезает градиент по форме текста */
+    color: transparent; /* Делает текст прозрачным, чтобы был виден градиент */
+    text-align: center;
+    font-size: 48px;
+}
+
+p {
+    color: coral;
+    font-size: 24px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+
+    margin-bottom: 30px;
+}
