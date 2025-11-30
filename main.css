@@ -15,13 +15,11 @@ body {
     font-family: "Pangolin";
 
     padding: 30px;
-
-    height: 94vh;
 }
 
 main {
     width: 80%;
-    height: 100%;
+    height: 1200px;
     margin: auto;
 
     background-color: lightblue;
